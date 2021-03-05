@@ -152,5 +152,5 @@ dmypy.json
 
 # profiling data
 .prof
-
+/db.keypet
 # End of https://www.toptal.com/developers/gitignore/api/django
