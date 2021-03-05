@@ -132,7 +132,7 @@ DJOSER = {
     'ACTIVATION_URL': 'activate/{uid}/{token}',
     'SEND_ACTIVATION_EMAIL': True,
     'SOCIAL_AUTH_TOKEN_STRATEGY': 'djoser.social.token.jwt.TokenStrategy',
-    'SOCIAL_AUTH_ALLOWED_REDIRECT_URIS': ['http://localhost:3000/dashboard'],
+    'SOCIAL_AUTH_ALLOWED_REDIRECT_URIS': ['https://keypetbooks.herokuapp.com/dashboard'],
     'SERIALIZERS': {
         'user_create': 'accounts.serializers.UserCreateSerializer',
         'user': 'accounts.serializers.UserCreateSerializer',
