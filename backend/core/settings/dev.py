@@ -10,10 +10,12 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'DATABASE':'',
-        'PASSWORD':
-        'NAME': os.path.join(BASE_DIR,,
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'keypetbooks',
+        'USER':'postgres',
+        'PASSWORD':'Hudehtech@12',
+        'HOST':'localhost',
+        'PORT': ''
     }
 }
 CORS_ORIGIN_WHITELIST = (
