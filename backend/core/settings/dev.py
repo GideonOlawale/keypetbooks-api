@@ -10,8 +10,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.keypet'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'DATABASE':'',
+        'PASSWORD':
+        'NAME': os.path.join(BASE_DIR,,
     }
 }
 CORS_ORIGIN_WHITELIST = (
