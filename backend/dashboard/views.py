@@ -3,8 +3,7 @@ from rest_framework.settings import api_settings
 from rest_framework_csv import renderers as r
 from rest_framework import  permissions
 from django.http import HttpResponse
-from rest_framework.response import Response
-from .models import CsvModel, CsvModelResouces
+from .models import  CsvModelResouces
 
 
 class CSVApi(APIView):
